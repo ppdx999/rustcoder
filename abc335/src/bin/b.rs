@@ -1,3 +1,15 @@
+use ::proconio::input;
+
 fn main() {
-    todo!();
+    input! { n: u32 }
+
+    for i in 0..=n {
+        for j in 0..=n {
+            for k in 0..=n {
+                if i + j + k <= n {
+                    println!("{} {} {}", i, j, k);
+                }
+            }
+        }
+    }
 }
