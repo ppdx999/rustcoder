@@ -24,3 +24,10 @@ $ cd abc335
 $ nvim # write code for 'c' problem
 $ cargo compete s c
 ```
+
+
+# Q and A
+
+## Q. Submit fail with 'Submission rejected'
+
+A. Maybe wrong `language_id` in compete.toml. The latest `language_id`is `5054` in 2024/01/08.
